@@ -54,7 +54,6 @@ chub.startCHUB(agentusername,agentpassword)
 
 **Accept Call**
 
-Using this syntax you can accept incomming call
 ```javascript
   chub.answer();
 ```
@@ -62,14 +61,13 @@ Using this syntax you can accept incomming call
 
 **Hangup/Reject call**
 
-Using this syntax you can hangup your call
 ```javascript
   chub.hangup();
 ```
 **Mute/Unmute MIC**
 ```javascript
   chub.mic();
-  //When you call this method first time it will mute mic ,if you call second time it will unmute you mic
+  //When you call this method first time it will mute your mic ,if you call second time it will unmute your mic
 ```
 **Send DTMF**
 
@@ -84,8 +82,7 @@ Using this syntax you can hangup your call
 ```
 ## CallBack
 **Status**
-
-Using this callback you can get all the event .
+ .
 ```javascript
   telecmi.onStatus=function(data){
   //Data is JSON it contain event and status
