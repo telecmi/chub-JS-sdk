@@ -1,0 +1,28 @@
+{
+  "name": "chub-js-sdk",
+  "description": "ContactHUB web IVR SDK",
+  "main": "dist/chub.min.js",
+  "homepage": "http://telecmi.com",
+  "authors": [
+    "Murugan Pandian <murugan@telecmi.com> (https://github.com/murugancmi)"
+  ],
+  "keywords": [
+    "chubsdk",
+    "ivrsdk",
+    "webrtc",
+    "library"
+  ],
+  "license": "TeleCMI sdk license",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telecmi/chub-js-sdk.git"
+  },
+  "ignore": [
+    "node_modules",
+    "test",
+    "src",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ]
+}
