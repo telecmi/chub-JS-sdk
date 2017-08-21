@@ -2,7 +2,7 @@ ContactHUB JavaScript SDK
 ===================
 
 
-ContactHUB ! Enable Web IVR in your Website using our Javascript SDK, Were your customer directly talk from  Browser like IVR,Booking and Voting ,etc.
+ContactHUB ! Indian First True CLoud Telephony Platform Enable Web IVR in your Website using our Javascript SDK, Were your customer directly talk from  Browser,Now your custamer can make call to your sales,technical and support team from ** browser **, You agent answer call in **Mobile/Landline** PSTN ,etc.
 
 
 
