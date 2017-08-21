@@ -19,6 +19,10 @@ Documents
 **npm**
 
     npm install chub-js-sdk
+    
+**yarn**
+
+    yarn add chub-js-sdk
 
 **CDN**
 
