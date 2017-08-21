@@ -94,6 +94,10 @@ chub.startCHUB(agentusername,agentpassword)
   telecmi.onStatus=function(data){
   if(data.event=='register'&& data.status==true){
    //register successfully do your stuff here
+     }else if(data.event=='incoming'&& data.status==true)
+     {
+         //You have new incoming call just accept it
+         telecmi.accept()
      }
  };
 ```
