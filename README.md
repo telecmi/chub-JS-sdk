@@ -82,20 +82,20 @@ chub.startCHUB(agentusername,agentpassword)
 **Logout**
 
 ```javascript
-  telecmi.logout();
+  chub.logout();
 ```
 ## CallBack
 **Status**
  .
 ```javascript
-  telecmi.onStatus=function(data){
+  chub.onStatus=function(data){
   //Data is JSON it contain event and status
   };
 ```
 
 ***Example***
 ```javascript
-  telecmi.onStatus=function(data){
+  chub.onStatus=function(data){
   if(data.event=='register'&& data.status==true){
    //register successfully do your stuff here
      }else if(data.event=='incoming'&& data.status==true)
