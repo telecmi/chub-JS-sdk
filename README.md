@@ -1,8 +1,8 @@
-ContactHUB JavaScript SDK
+CHUB JavaScript SDK
 ===================
 
 
-ContactHUB ! Indian First True Cloud Telephony Platform Enable Web IVR in your Website using our Javascript SDK, Were your customer directly talk from  Browser,Now your custamer can make call to your sales,technical and support team from **browser**, You agent answer the call in **Mobile/Landline** from anywhere in the world .
+Javascript sdk for making and receiving call in browser using WebRTC technologies,Now you can receive call directly to you browser .
 
 
 
@@ -42,7 +42,7 @@ var chub = new Telecmi();
 ```javascript
 chub.startCHUB(agentusername,agentpassword)
 //For agent use your agent username and password
-//For web ivr just use username: telecmi ,password: telecmi
+
 ```
 
 
